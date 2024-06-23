@@ -1,7 +1,9 @@
+import NavBar from "../components/navBar/NavBar";
+
 function Comments() {
   return (
     <>
-      <h1>Comments</h1>
+      <NavBar />
     </>
   );
 }
