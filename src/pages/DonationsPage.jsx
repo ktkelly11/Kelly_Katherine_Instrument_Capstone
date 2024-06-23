@@ -1,7 +1,9 @@
+import NavBar from "../components/navBar/NavBar";
+
 function Donations() {
   return (
     <>
-      <h1>Donations</h1>
+      <NavBar />
     </>
   );
 }

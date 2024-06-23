@@ -1,7 +1,9 @@
+import NavBar from "../components/navBar/NavBar";
+
 function Helps() {
   return (
     <>
-      <h1>How it Helps</h1>
+      <NavBar />
     </>
   );
 }
