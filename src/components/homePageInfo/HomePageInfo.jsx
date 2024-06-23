@@ -1,5 +1,5 @@
 import "./HomePageInfo.css";
-import music_class from "../../images/homePage/music_class";
+import music_class from "../../images/homePage/music_class.webp";
 
 export default function HomePageInfo() {
   return (
