@@ -1,8 +1,30 @@
-# React + Vite
+# Secondhand Musical Instrument Donation Page
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+## The Idea
 
-Currently, two official plugins are available:
+For my Capstone, I wanted to create a project that my family has been talking about for a while now. It involves my dear mom and my brother who is a music teacher at a public school in Vermont. My mom one day found a used trumpet that, with a little bit of repair, would make a lovely instrument for my brother's class to use. He is always trying to raise funds and get instruments into the hands of his students who need them and thus the idea was born, a musical instrument donation site to get no longer used instruments into the hands of students who could benefit from them.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## Tech
+
+I used a number of open source languages and frameworks to make this project:
+
+- HTML
+- CSS
+- JavaScript
+- React JS
+- Express and Node
+- Mongoose
+
+This is in a public repository on GitHub.
+
+## Development
+
+Website designed by Katie Kelly
+
+## Links
+
+[Deployed Capstone Frontend Netlify Link](LINKGOESHERE)
+
+[Capstone Backend Github Link](LINKGOESHERE)
+
+[Deployed Capstone Backend Render Link](LINKGOESHERE)
