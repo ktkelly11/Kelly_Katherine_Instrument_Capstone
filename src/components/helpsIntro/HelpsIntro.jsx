@@ -25,6 +25,14 @@ export default function HelpsIntro() {
           allowfullscreen
         ></iframe>
       </div>
+      <div className="vid-explanation">
+        <p>
+          This is an Oscar winning video about how providing musical instruments
+          to underserved students opens up doors for them. As one viewer put it
+          "they aren't repairing instruments - they are repairing kids,
+          repairing families, repairing communities. What a beautiful film!"
+        </p>
+      </div>
     </>
   );
 }

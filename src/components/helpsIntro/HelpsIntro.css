@@ -3,8 +3,19 @@
 .video {
   display: flex;
   justify-content: center;
+  align-items: center;
 }
 
 .title {
   margin-top: 100px;
+  text-align: center;
+}
+
+.intro {
+  text-align: center;
+}
+
+.vid-explanation p {
+  font-size: 15px;
+  text-align: center;
 }
