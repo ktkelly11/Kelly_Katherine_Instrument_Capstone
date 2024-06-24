@@ -4,7 +4,7 @@ import music_class from "../../images/homePage/music_class.webp";
 export default function HomePageInfo() {
   return (
     <>
-      <div className="home-page-intro">
+      <div className="home-page-summary">
         <div className="site-summary">
           <p>
             Thank you for visiting our site. Here at Secondhand Instruments, we

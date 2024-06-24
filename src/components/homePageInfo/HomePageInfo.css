@@ -12,7 +12,7 @@ img {
   border-radius: 30px;
 }
 
-.home-page-intro {
+.home-page-summary {
   display: flex;
   justify-content: space-around;
 }
