@@ -1,5 +1,9 @@
-.teacher-1 {
+.teacher-1,
+.teacher-2,
+.teacher-3,
+.teacher-4 {
   display: flex;
   justify-content: center;
+  align-items: center;
   margin: 20px;
 }
