@@ -6,7 +6,7 @@ export default function NavBar() {
     <>
       <nav className="navbar">
         <Link to={"/home"}>
-          <div className="home">Secondhand Instruments</div>
+          <div className="home">Play it Forward</div>
         </Link>
         <Link to={"/helps"}>
           <div className="how-it-helps">How it Helps</div>

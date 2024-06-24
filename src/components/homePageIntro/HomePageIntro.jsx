@@ -9,8 +9,9 @@ export default function HomePageIntro() {
           <img src={music_intro} alt="" />
         </div>
         <div className="title">
-          <h1>Secondhand</h1>
-          <h1>Instruments</h1>
+          <h1>Play</h1>
+          <h1>It</h1>
+          <h1>Forward</h1>
         </div>
       </div>
     </>
