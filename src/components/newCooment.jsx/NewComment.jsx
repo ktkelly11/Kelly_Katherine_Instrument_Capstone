@@ -4,6 +4,9 @@ import { useRef } from "react";
 export default function NewComment() {
   const nameRef = useRef(null);
   const titleRef = useRef(null);
+  const commentRef = useRef(null);
+  const cityRef = useRef(null);
+  const stateRef = useRef(null);
 
   return (
     <>
@@ -12,11 +15,12 @@ export default function NewComment() {
         <br />
         Title: <input type="text" ref={titleRef} />*
         <br />
-        Comment: <input type="text" />*
+        Comment: <input type="text" ref={commentRef} />*
         <br />
-        City: <input type="text" />
+        City: <input type="text" ref={cityRef} />
         <br />
-        State: <input type="text" />
+        State: <input type="text" ref={stateRef} />
+        <input type="submit" value="Create Comment" />
       </form>
     </>
   );
