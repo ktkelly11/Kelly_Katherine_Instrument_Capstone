@@ -1,0 +1,17 @@
+.buttons {
+  background-color: grey;
+  display: flex;
+  justify-content: center;
+  margin: 20px;
+}
+
+p {
+  display: flex;
+  justify-content: center;
+}
+
+.github,
+.linkedin {
+  border: 2px solid black;
+  margin: 20px;
+}
