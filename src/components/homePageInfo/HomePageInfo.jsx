@@ -1,5 +1,6 @@
 import "./HomePageInfo.css";
-import music_class from "../../images/homePage/music_class.webp";
+import students_1 from "../../images/homePage/students_1.png";
+import students_2 from "../../images/homePage/students_2.webp";
 
 export default function HomePageInfo() {
   return (
@@ -16,8 +17,12 @@ export default function HomePageInfo() {
         </div>
         <div className="student-image">
           <img
-            src={music_class}
+            src={students_1}
             alt="Students learning with Secondhand Instruments"
+          />
+          <img
+            src={students_2}
+            alt="Students learning with secondhand instruments"
           />
         </div>
       </div>
