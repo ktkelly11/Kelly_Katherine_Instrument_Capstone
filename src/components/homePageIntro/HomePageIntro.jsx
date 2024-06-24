@@ -11,6 +11,7 @@ export default function HomePageIntro() {
         <div className="title">
           <h1>Play</h1>
           <h1>It</h1>
+          <br />
           <h1>Forward</h1>
         </div>
       </div>

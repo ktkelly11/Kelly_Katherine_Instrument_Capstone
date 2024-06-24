@@ -1,6 +1,6 @@
 import NavBar from "../components/navBar/NavBar";
-import HomePageInfo from "../components/homePageInfo/HomePageInfo";
 import HomePageIntro from "../components/homePageIntro/HomePageIntro";
+import HomePageInfo from "../components/homePageInfo/HomePageInfo";
 import Footer from "../components/footer/Footer";
 
 function Homepage() {
