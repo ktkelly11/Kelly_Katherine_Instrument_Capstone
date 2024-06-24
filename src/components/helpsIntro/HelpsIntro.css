@@ -1,0 +1,10 @@
+.title,
+.intro,
+.video {
+  display: flex;
+  justify-content: center;
+}
+
+.title {
+  margin-top: 100px;
+}
