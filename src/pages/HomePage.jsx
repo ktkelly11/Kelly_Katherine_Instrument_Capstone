@@ -9,6 +9,7 @@ function Homepage() {
       <NavBar />
       <HomePageIntro />
       <HomePageInfo />
+      <Footer />
     </>
   );
 }
