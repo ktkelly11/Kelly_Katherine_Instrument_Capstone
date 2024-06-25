@@ -1,6 +1,7 @@
 import "./NewComment.css";
 import { useRef } from "react";
 
+// For creating a new comment
 export default function NewComment({ comments, setComments, baseUrl }) {
   const nameRef = useRef(null);
   const titleRef = useRef(null);

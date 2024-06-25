@@ -43,7 +43,7 @@ function Comments() {
         baseUrl={baseUrl}
       />
 
-      {/* Props drilling so Comments list has Base URL */}
+      {/* Props drilling so CommentsList has Base URL */}
       <CommentsList
         comments={comments}
         baseUrl={baseUrl}

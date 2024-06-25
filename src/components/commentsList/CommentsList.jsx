@@ -1,5 +1,6 @@
 import "./CommentsList.css";
 
+// Adding comments to page
 export default function CommentsList({ comments, baseUrl, setComments }) {
   //   console.log(comments);
 
