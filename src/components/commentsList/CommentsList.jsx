@@ -36,7 +36,7 @@ export default function CommentsList({ comments, baseUrl, setComments }) {
                 <p>{c.city}</p>
                 <p>{c.state}</p>
                 <button>Edit</button>
-                <button>Delete</button>
+                <button handleDelete={handleDelete}>Delete</button>
               </div>
             );
           })
