@@ -27,6 +27,20 @@ export default function NewComment({ comments, setComments, baseUrl }) {
         },
         body: JSON.stringify(newComment),
       });
+
+      if (response.status !== 201) {
+        return;
+      }
+
+      const createdComment = await response.json();
+
+      setComments([...comments, createdComment]);
+
+      nameRef.current.value = "";
+      titleRef.current.value = "";
+      commentRef.current.value = "";
+      cityRef.current.value = "";
+      stateRef.current.value = "";
     } catch (err) {
       console.log(err);
     }
