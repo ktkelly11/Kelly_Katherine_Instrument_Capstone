@@ -6,11 +6,17 @@ import NewComment from "../components/newCooment.jsx/NewComment";
 function Comments() {
   const [comments, setComments] = useState([]);
 
+  const baseUrl = "https://instrument-capstone-backend.onrender.com";
+
   return (
     <>
       <NavBar />
       <CommentsIntro />
-      <NewComment comments={comments} setComments={setComments} />
+      <NewComment
+        comments={comments}
+        setComments={setComments}
+        baseUrl={baseUrl}
+      />
     </>
   );
 }
