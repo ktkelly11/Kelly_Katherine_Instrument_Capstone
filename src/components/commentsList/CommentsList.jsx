@@ -3,9 +3,9 @@ import "./CommentsList.css";
 export default function CommentsList({ comments, baseUrl, setComments }) {
   //   console.log(comments);
 
-  const handleDelete = async (id) => {
+  const handleDelete = async (comments) => {
     try {
-      const response = await fetch(`${baseUrl}/comments/` + id);
+      const response = await fetch(`${baseUrl}/comments/${comments._id}`);
 
       if (response.status !== 200) {
         return;
@@ -29,14 +29,20 @@ export default function CommentsList({ comments, baseUrl, setComments }) {
         {comments.length ? (
           comments.map((c) => {
             return (
-              <div className="individual-comments">
+              <div className="individual-comments" key={comments._id}>
                 <p>{c.name}</p>
                 <p>{c.title}</p>
                 <p>{c.comment}</p>
                 <p>{c.city}</p>
                 <p>{c.state}</p>
                 <button>Edit</button>
-                <button handleDelete={handleDelete}>Delete</button>
+                <button
+                  onClick={() => {
+                    handleDelete(comments._id);
+                  }}
+                >
+                  Delete
+                </button>
               </div>
             );
           })
