@@ -1,11 +1,16 @@
 import "./Comment.css";
 
 export default function Comment({ comments }) {
-  //   console.log(comments.name);
+  console.log(comments);
 
   return (
     <>
-      <div className="individual-comments">{/* <p>{comments.title}</p> */}</div>
+      <div
+        className="individual-comments"
+        //   key={comments._id}
+      >
+        {/* <p>{comments.title}</p> */}
+      </div>
     </>
   );
 }
