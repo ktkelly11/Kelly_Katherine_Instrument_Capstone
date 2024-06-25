@@ -4,9 +4,9 @@ import "./CommentsList.css";
 export default function CommentsList({ comments, baseUrl, setComments }) {
   //   console.log(comments);
 
-  const handleDelete = async (comments) => {
+  const handleDelete = async (id) => {
     try {
-      const response = await fetch(`${baseUrl}/comments/${comments._id}`);
+      const response = await fetch(`${baseUrl}/comments/${id}`);
 
       if (response.status !== 200) {
         return;
