@@ -12,7 +12,7 @@ export default function NewComment({ comments, setComments, baseUrl }) {
     e.preventDefault();
 
     try {
-      const newComment = {
+      const body = {
         name: nameRef.current.value,
         title: titleRef.current.value,
         comment: commentRef.current.value,
@@ -21,11 +21,11 @@ export default function NewComment({ comments, setComments, baseUrl }) {
       };
 
       const response = await fetch(`${baseUrl}/comments`, {
-        method: "Post",
+        method: "POST",
         headers: {
-          "content-Type": "application/json",
+          "Content-Type": "application/json",
         },
-        body: JSON.stringify(newComment),
+        body: JSON.stringify(body),
       });
 
       if (response.status !== 201) {
