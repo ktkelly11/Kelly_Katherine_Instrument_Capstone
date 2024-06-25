@@ -68,14 +68,14 @@ export default function NewDonation({ donations, setDonations, baseUrl }) {
         <br />
         Phone Number: <input type="text" ref={phoneNumRef} />*
         <br />
-        City: <input type="text" ref={cityRef} />
+        City: <input type="text" ref={cityRef} />*
         <br />
-        State: <input type="text" ref={stateRef} />
+        State: <input type="text" ref={stateRef} />*
         <br />
-        Instrument: <input type="text" ref={instrumentRef} />
+        Instrument: <input type="text" ref={instrumentRef} />*
         <br />
-        Instrument Quantity: <input type="text" ref={instrumentNumRef} />
-        <input type="submit" value="Create Comment" />
+        Instrument Quantity: <input type="text" ref={instrumentNumRef} />*
+        <input type="submit" value="Donate" />
       </form>
     </>
   );
