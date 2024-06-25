@@ -2,6 +2,7 @@ import { useState, useEffect } from "react";
 import NavBar from "../components/navBar/NavBar";
 import CommentsIntro from "../components/commentsIntro/CommentsIntro";
 import NewComment from "../components/newCooment.jsx/NewComment";
+import CommentsList from "../components/commentsList/CommentsList";
 
 function Comments() {
   const [comments, setComments] = useState([]);
@@ -19,7 +20,7 @@ function Comments() {
 
         const data = await response.json();
 
-        setBookmarks(data);
+        setComments(data);
       } catch (err) {
         console.log(err);
       }
@@ -37,6 +38,7 @@ function Comments() {
         setComments={setComments}
         baseUrl={baseUrl}
       />
+      <CommentsList comments={comments} />
     </>
   );
 }
