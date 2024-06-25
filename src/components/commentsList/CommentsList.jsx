@@ -1,5 +1,4 @@
 import "./CommentsList.css";
-import Comment from "../comment/Comment";
 
 export default function CommentsList({ comments }) {
   //   console.log(comments);

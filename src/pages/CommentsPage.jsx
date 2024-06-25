@@ -1,7 +1,10 @@
 import { useState, useEffect } from "react";
 import NavBar from "../components/navBar/NavBar";
+// Explains what the comments are:
 import CommentsIntro from "../components/commentsIntro/CommentsIntro";
+// The POST request to create a new comment:
 import NewComment from "../components/newCooment.jsx/NewComment";
+// Individual comments appearing on the page:
 import CommentsList from "../components/commentsList/CommentsList";
 
 function Comments() {
