@@ -8,17 +8,17 @@ export default function HomePageInfo() {
       <div className="home-page-summary">
         <div className="site-summary">
           <p>
-            We believe that music can be transformative, and a musical
-            instrument can help a child discover not only their own musical
-            abilities but the joy of making music with others. Many children
-            love music and want to learn to play it. But many families simply
-            can’t afford the cost to rent or buy an instrument.
+            We believe that music can be transformative. A musical instrument
+            can help a child discover not only their own musical ability but the
+            joy of making music with others. Many children love music and want
+            to learn to play it. But many families simply can’t afford the cost
+            to rent or buy an instrument.
             <br />
             <br />
-            Here’s how you can help. Many families own gently used band and
-            orchestra instruments which are frequently gathering dust in a
-            closet or attic. We use volunteer labor and cash donations to
-            refurbish the instruments and work with teachers to get them to
+            Here’s how you can help. Lots of people own gently used band and
+            orchestra instruments, many of which are gathering dust in a closet
+            or attic. Give them to us. We use volunteer labor and cash donations
+            to refurbish instruments. Then we work with teachers to get them to
             students who otherwise would not have one.
           </p>
         </div>
