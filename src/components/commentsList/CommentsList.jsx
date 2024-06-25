@@ -1,4 +1,5 @@
 import "./CommentsList.css";
+import Comment from "../comment/Comment";
 
 export default function CommentsList({ comments }) {
   return (
@@ -6,7 +7,7 @@ export default function CommentsList({ comments }) {
       <ul className="comment-list">
         {comments.length ? (
           comments.map((c) => {
-            return <p>{c.name}</p>;
+            return <Comment />;
           })
         ) : (
           <p>No Comments. Feel free to add one of your own!</p>
