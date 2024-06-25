@@ -12,6 +12,7 @@ function Comments() {
 
   const baseUrl = "https://instrument-capstone-backend.onrender.com";
 
+  // Keeps the comments on the page after a refresh
   useEffect(() => {
     const getComments = async () => {
       try {
@@ -41,7 +42,13 @@ function Comments() {
         setComments={setComments}
         baseUrl={baseUrl}
       />
-      <CommentsList comments={comments} />
+
+      {/* Props drilling so Comments list has Base URL */}
+      <CommentsList
+        comments={comments}
+        baseUrl={baseUrl}
+        setComments={setComments}
+      />
     </>
   );
 }
