@@ -9,11 +9,11 @@ export default function CommentsList({ comments }) {
         {comments.length ? (
           comments.map((c) => {
             return (
-              <>
+              <div className="individual-comments">
                 <p>{c.name}</p>
                 <p>{c.title}</p>
                 <p>{c.comment}</p>
-              </>
+              </div>
             );
           })
         ) : (
