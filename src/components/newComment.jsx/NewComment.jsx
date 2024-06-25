@@ -29,7 +29,7 @@ export default function NewComment({ comments, setComments, baseUrl }) {
         body: JSON.stringify(body),
       });
 
-      if (response.status !== 201) {
+      if (response.status !== 200) {
         return;
       }
 

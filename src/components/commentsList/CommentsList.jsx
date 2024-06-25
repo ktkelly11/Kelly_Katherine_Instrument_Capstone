@@ -6,7 +6,9 @@ export default function CommentsList({ comments, baseUrl, setComments }) {
 
   const handleDelete = async (id) => {
     try {
-      const response = await fetch(`${baseUrl}/comments/${id}`);
+      const response = await fetch(`${baseUrl}/comments/${id}`, {
+        method: "DELETE",
+      });
 
       if (response.status !== 200) {
         return;
@@ -15,7 +17,7 @@ export default function CommentsList({ comments, baseUrl, setComments }) {
       const data = await response.json();
 
       const filtered = comments.filter((c) => {
-        c._id !== data._id;
+        return c._id !== data._id;
       });
 
       setComments(filtered);
@@ -39,7 +41,7 @@ export default function CommentsList({ comments, baseUrl, setComments }) {
                 <button>Edit</button>
                 <button
                   onClick={() => {
-                    handleDelete(comments._id);
+                    handleDelete(c._id);
                   }}
                 >
                   Delete
