@@ -8,7 +8,13 @@ export default function CommentsList({ comments }) {
       <ul className="comment-list">
         {comments.length ? (
           comments.map((c) => {
-            return <Comment key={c._id} comment={c} />;
+            return (
+              <>
+                <p>{c.name}</p>
+                <p>{c.title}</p>
+                <p>{c.comment}</p>
+              </>
+            );
           })
         ) : (
           <p>No Comments. Feel free to add one of your own!</p>
