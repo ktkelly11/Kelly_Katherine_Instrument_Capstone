@@ -1,14 +1,8 @@
-.buttons {
+.footer-buttons {
   background-color: rgb(94, 104, 128);
   display: flex;
   justify-content: center;
   margin-bottom: 40px;
-  color: white;
-}
-
-p {
-  display: flex;
-  justify-content: center;
 }
 
 .github,
@@ -17,5 +11,10 @@ p {
 }
 
 .footer p {
+  display: flex;
+  justify-content: center;
   margin-top: 100px;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  font-size: 20px;
+  color: rgb(213, 213, 222);
 }

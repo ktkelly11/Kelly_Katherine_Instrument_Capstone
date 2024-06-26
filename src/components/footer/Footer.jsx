@@ -5,7 +5,7 @@ export default function Footer() {
     <>
       <div className="footer">
         <p>You can follow us here:</p>
-        <div className="buttons">
+        <div className="footer-buttons">
           <a className="github" href="https://github.com/ktkelly11">
             Github
           </a>
