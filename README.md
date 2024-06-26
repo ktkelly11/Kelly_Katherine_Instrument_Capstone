@@ -23,7 +23,7 @@ Website designed by Katie Kelly
 
 ## Links
 
-[Deployed Capstone Frontend Netlify Link](LINKGOESHERE)
+[Deployed Capstone Frontend Netlify Link](https://667b9f0e7a41f099c726c12a--willowy-brioche-37f036.netlify.app/)
 
 [Capstone Backend Github Link](https://github.com/ktkelly11/Instrument_Capstone_Backend)
 
