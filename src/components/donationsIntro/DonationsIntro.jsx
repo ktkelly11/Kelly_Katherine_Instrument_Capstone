@@ -2,7 +2,7 @@ import "./DonationsIntro.css";
 
 export default function () {
   return (
-    <div className="donations" style={{ textAlign: "center" }}>
+    <div className="donations">
       <h1 className="donations-title">Donations</h1>
       <div className="donations-explanation">
         <p>

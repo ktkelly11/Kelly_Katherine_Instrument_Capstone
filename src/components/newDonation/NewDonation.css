@@ -1,0 +1,7 @@
+.new-donation {
+  text-align: center;
+}
+
+.new-donation input[type="text"] {
+  margin: 10px;
+}

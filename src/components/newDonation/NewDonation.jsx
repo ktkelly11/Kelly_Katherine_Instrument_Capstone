@@ -61,7 +61,7 @@ export default function NewDonation({ donations, setDonations, baseUrl }) {
 
   return (
     <>
-      <form onSubmit={handleSubmit} className="new-comment">
+      <form onSubmit={handleSubmit} className="new-donation">
         Full Name: <input type="text" ref={fullNameRef} />*
         <br />
         Email: <input type="text" ref={emailRef} />*
@@ -75,6 +75,7 @@ export default function NewDonation({ donations, setDonations, baseUrl }) {
         Instrument: <input type="text" ref={instrumentRef} />*
         <br />
         Instrument Quantity: <input type="text" ref={instrumentNumRef} />*
+        <br />
         <input type="submit" value="Donate" />
       </form>
     </>
