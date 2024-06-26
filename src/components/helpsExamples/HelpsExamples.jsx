@@ -11,11 +11,21 @@ export default function HelpExamples() {
     <>
       <div className="helps-1">
         <img src={kindergarten_1} alt="Music class" />
-        <p>Explanation of why the instruments are important</p>
+        <p>
+          Children who study music become better students and more creative,
+          compassionate people. In addition to learning the value of teamwork,
+          listening skills improve, along with critical thinking,
+          self-discipline and self- esteem.
+        </p>
       </div>
       <div className="helps-2">
-        <p>Explanation of why the instruments are important</p>
-        <img src={music_class_2} alt="Mr. Davis teaching a class" />
+        <p>
+          Research has proven the link between music and our mood. Listening to
+          a favorite song can cause a release of dopamine into the brain that
+          helps prevent depression. With depression at record levels in
+          children, music can provide a natural way to increase happiness.
+        </p>
+        <img src={music_class_2} alt="Music class" />
       </div>
       <div className="helps-3">
         <img
