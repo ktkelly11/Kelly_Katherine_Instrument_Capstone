@@ -1,5 +1,6 @@
 .new-donation {
   text-align: center;
+  margin-bottom: 50px;
 }
 
 .new-donation input[type="text"] {
