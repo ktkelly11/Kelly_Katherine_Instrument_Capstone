@@ -33,11 +33,11 @@ export default function CommentsList({ comments, baseUrl, setComments }) {
           comments.map((c) => {
             return (
               <div className="individual-comments" key={comments._id}>
-                <p>{c.name}</p>
-                <p>{c.title}</p>
-                <p>{c.comment}</p>
-                <p>{c.city}</p>
-                <p>{c.state}</p>
+                <p className="comment-name">{c.name}</p>
+                <p className="comment-title">{c.title}</p>
+                <p className="comment-comment">{c.comment}</p>
+                <p className="comment-city">{c.city}</p>
+                <p className="comment-state">{c.state}</p>
                 <button>Edit</button>
                 <button
                   onClick={() => {
