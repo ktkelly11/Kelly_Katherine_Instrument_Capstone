@@ -9,10 +9,13 @@
 .title {
   margin-top: 100px;
   text-align: center;
+  font-size: 20px;
 }
 
-.intro {
+.intro p {
   text-align: center;
+  margin-top: 0px;
+  margin-bottom: 50px;
 }
 
 .vid-explanation p {

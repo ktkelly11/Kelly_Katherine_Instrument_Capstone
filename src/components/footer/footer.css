@@ -2,13 +2,15 @@
   background-color: rgb(94, 104, 128);
   display: flex;
   justify-content: center;
-  margin-bottom: 20px;
+  margin-bottom: 40px;
+  color: white;
 }
 
 p {
   display: flex;
   justify-content: center;
   margin-bottom: 0;
+  margin-top: 70px;
 }
 
 .github,
