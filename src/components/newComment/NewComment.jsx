@@ -59,6 +59,7 @@ export default function NewComment({ comments, setComments, baseUrl }) {
         City: <input type="text" ref={cityRef} />
         <br />
         State: <input type="text" ref={stateRef} />
+        <br />
         <input type="submit" value="Create Comment" />
       </form>
     </>

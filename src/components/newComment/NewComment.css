@@ -1,0 +1,7 @@
+.new-comment {
+  text-align: center;
+}
+
+.new-comment input[type="text"] {
+  margin: 10px;
+}
