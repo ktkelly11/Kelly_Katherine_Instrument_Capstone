@@ -3,13 +3,13 @@ import "./HelpsIntro.css";
 export default function HelpsIntro() {
   return (
     <>
-      <div className="title">
+      <div className="helps-title">
         <h1>How your donations make a difference</h1>
       </div>
-      <div className="intro">
+      <div className="helps-intro">
         <p>Watch a similar program in Los Angeles:</p>
       </div>
-      <div className="video">
+      <div className="helps-video">
         <iframe
           width="560"
           height="315"
