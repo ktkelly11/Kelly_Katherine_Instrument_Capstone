@@ -1,7 +1,9 @@
-.teacher-1,
-.teacher-2,
-.teacher-3,
-.teacher-4 {
+.helps-1,
+.helps-2,
+.helps-3,
+.helps-4,
+.helps-5,
+.helps-6 {
   display: flex;
   justify-content: center;
   align-items: center;

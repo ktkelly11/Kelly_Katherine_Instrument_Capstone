@@ -9,11 +9,13 @@
 p {
   display: flex;
   justify-content: center;
-  margin-bottom: 0;
-  margin-top: 70px;
 }
 
 .github,
 .linkedin {
   margin-right: 20px;
+}
+
+.footer p {
+  margin-top: 100px;
 }
