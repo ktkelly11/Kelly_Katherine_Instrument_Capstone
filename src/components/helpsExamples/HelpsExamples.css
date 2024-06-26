@@ -13,3 +13,12 @@
 .helps-6 {
   margin-bottom: 100px;
 }
+
+.helps-1 p,
+.helps-2 p,
+.helps-3 p,
+.helps-4 p,
+.helps-5 p,
+.helps-6 p {
+  font-size: 25px;
+}
