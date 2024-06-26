@@ -1,0 +1,12 @@
+.individual-comments p {
+  display: flex;
+  justify-content: center;
+  margin: 10px 250px 10px 250px;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+}
+
+.individual-comments {
+  border: 2px solid black;
+  border-radius: 30px;
+  margin: 20px;
+}
